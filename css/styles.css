@@ -353,6 +353,7 @@ img {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     margin-bottom: 9px;
+    padding-bottom: 9px;
 }
 
 .footer-phone {
