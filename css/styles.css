@@ -19,7 +19,7 @@ h2,
 h3,
 h4,
 p
- {
+{
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -37,11 +37,30 @@ img {
 
 .list {
     list-style: none;
+    
 }
 
 .link {
     text-decoration: none;
 }
+
+.subscribe {
+    display: flex;
+    flex-wrap: wrap;  
+    margin-top: 94px;
+    }
+
+.advantages-list {
+    width: 270px;
+    height: 16px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+}
+
+.advantages-desc {
+    width: 270px;
+    height: 75px;
+    }
 
 .wrapper {
     padding-right: 15px;
@@ -65,7 +84,7 @@ img {
     align-items: center;
 }
 
-.nav-list-item:not(:last-child) {
+.nav-list-item:not(:nth-child(4n)) {
     margin-right: 50px;
 }
 
@@ -125,11 +144,8 @@ img {
     }
 
 .navigation-button {
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 22px;
-    padding-right: 22px;
-    border: var(--batton-backgraund-color);
+    padding: 6px 22px;
+    border: none;
     border-radius: 4px;
     font-family: var(--prymary-font-family);
     font-weight: 500;
@@ -169,6 +185,7 @@ img {
 }
 
 .main-header {
+    margin-bottom: 28px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.33;
@@ -179,17 +196,17 @@ img {
 }
 
 .hero-section {
+    padding-top: 200px;
+    padding-bottom: 200px;
     background-color: var(--background-color)
 }
 
 .modal-button {
     margin-left: auto;
     margin-right: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding: 10px 32px;
     border-radius: 4px;
+    border: none;
     font-family: var(--main-font-family);
     font-weight: bold;
     font-size: 16px;
@@ -204,6 +221,8 @@ img {
 }
 
 .advantages-list {
+    margin-bottom: 10px;
+    margin-right: 30px;
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
@@ -225,6 +244,7 @@ img {
 }
 
 .sub-header {
+    margin-bottom: 50px;
     font-weight: bold;
     font-size: 36px;
     line-height: 1.17;
@@ -234,12 +254,69 @@ img {
 }
 
 .employee-list {
+    padding-top: 30px;
+    margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--accent-color);
+}
+
+.portfolio-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 56px;
+}
+
+.portfolio-list {
+    margin-right: 8px;
+    text-align: center;
+}
+
+.list-of-works {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px ;
+    margin-top: -30px;
+}
+
+.work-card:not(:nth-child(3n)) {
+    flex-basis: calc(100%-3*30px/3);
+    margin-right: 30px ;
+    margin-bottom: 30px;  
+}
+.our-employee {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.about {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.about-us {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.our-team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+
+.employees-card: {
+    margin-left: 30px;
+    margin-bottom: 30px
+    }
+
+.our-subscribe {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .profession-list {
@@ -251,6 +328,9 @@ img {
     color: var(--primary-font-color);
 }
 
+.logo-footer {
+    padding-top: 60px;
+}
 .colortext-footer {
     color: var(--secondary-font-color);
 }
