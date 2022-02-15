@@ -52,24 +52,20 @@ img {
 }
 
 .header {
-    background-color: tomato;
-} 
-    
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
 .header-wrapper {
     display: flex;
     align-items: center;
-}
-    
+}    
 .nav-list {
     display: flex;
     align-items: center;
 }
 
-.logo {
-    margin-right: 93px;
-}
-
-.nav-list-item {
+.nav-list-item:not(:last-child) {
     margin-right: 50px;
 }
 
@@ -80,6 +76,7 @@ img {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--acccent-color);
+    margin-right: 93px;
 }
 
 .colortext {
@@ -105,6 +102,7 @@ img {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--primary-font-color);
+    margin-left: auto;
     }
     
 .contact-phone {
@@ -113,6 +111,7 @@ img {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--primary-font-color);
+    margin-left: 50px;
 }
 
 .contacts-mail:hover,
@@ -126,6 +125,12 @@ img {
     }
 
 .navigation-button {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border: var(--batton-backgraund-color);
+    border-radius: 4px;
     font-family: var(--prymary-font-family);
     font-weight: 500;
     font-size: 16px;
@@ -177,7 +182,14 @@ img {
     background-color: var(--background-color)
 }
 
-.modal-buttom {
+.modal-button {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 4px;
     font-family: var(--main-font-family);
     font-weight: bold;
     font-size: 16px;
@@ -251,8 +263,6 @@ img {
     letter-spacing: 0.03em;
     color: var(--secondary-font-color);
 } 
-
-
 
 .footer-mail {
     font-style: normal;
