@@ -1,0 +1,277 @@
+:root {
+    --prymary-font-family: "Roboto", sans-serif;
+    --secondary-font-family: "Raleway", sans-serif;
+    --primary-font-color: #757575;
+    --secondary-font-color: #FFFFFF;
+    --batton-backgraund-color: #F5F4FA;
+    --accent-color: #212121;
+    --background-color: #2F303A;
+    --acccent-color: #2196F3;
+}
+
+body {
+    font-family: var(--prymary-font-family);
+    color: var(--primary-font-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+p
+ {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.wrapper {
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    background-color: tomato;
+} 
+    
+.header-wrapper {
+    display: flex;
+    align-items: center;
+}
+    
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 93px;
+}
+
+.nav-list-item {
+    margin-right: 50px;
+}
+
+.logo {
+    font-family: var(--secondary-font-family);
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--acccent-color);
+}
+
+.colortext {
+    color: #212121;
+}
+
+.nav-list-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus {
+    color: var(--acccent-color);
+    }
+
+.contacts-mail {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-font-color);
+    }
+    
+.contact-phone {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-font-color);
+}
+
+.contacts-mail:hover,
+.contacts-mail:focus {
+    color: var(--acccent-color);
+    }
+
+.contact-phone:hover,
+.contact-phone:focus {
+    color: var(--acccent-color);
+    }
+
+.navigation-button {
+    font-family: var(--prymary-font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+    cursor: pointer;
+    background: var(--batton-backgraund-color);
+}    
+
+.navigation-button:hover,
+.navigation-button:focus {
+    background-color: var(--acccent-color)
+}
+
+.navigation-button:hover,
+.navigation-button:focus {
+    color: var(--secondary-font-color);
+}
+
+.img-description {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.71;
+    letter-spacing: 0.06em;
+    color: var(--accent-color);
+}
+
+.undertitle {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--primary-font-color);
+}
+
+.main-header {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.33;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--secondary-font-color);
+}
+
+.hero-section {
+    background-color: var(--background-color)
+}
+
+.modal-buttom {
+    font-family: var(--main-font-family);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--secondary-font-color);
+    cursor: pointer;
+    background-color: var(--acccent-color);
+}
+
+.advantages-list {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--accent-color);
+}
+
+.advantages-desc {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-font-color);
+}
+
+.our-employee {
+    background-color: #F5F4FA;
+}
+
+.sub-header {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+
+.employee-list {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+
+.profession-list {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-font-color);
+}
+
+.colortext-footer {
+    color: var(--secondary-font-color);
+}
+
+.footer-location {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-font-color);
+} 
+
+
+
+.footer-mail {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-phone {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    }
+
+.footer {
+    background-color: var(--background-color);
+}
