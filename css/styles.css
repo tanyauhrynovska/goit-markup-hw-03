@@ -46,9 +46,17 @@ img {
 
 .subscribe {
     display: flex;
-    flex-wrap: wrap;  
-    margin-top: 94px;
-    }
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.subscribe-list {
+    margin-right: 20px;
+}
+
+.our-advantages {
+    padding: 94px 215px;
+}
 
 .advantages-list {
         width: 270px;
@@ -66,13 +74,12 @@ img {
     
 .advantages-desc {
     width: 270px;
-    height: 75px;
-    }
+}
 
 .wrapper {
     padding-right: 15px;
     padding-left: 15px;
-    width: 1170px;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -80,6 +87,7 @@ img {
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
+    border: 1px solid #ECECEC;
 }
 
 .header-wrapper {
@@ -176,8 +184,6 @@ img {
 }
 
 .img-description {
-    margin-top: 20px;
-    margin-left: 24px;
     font-weight: bold;
     font-size: 18px;
     line-height: 1.71;
@@ -186,14 +192,12 @@ img {
 }
 
 .undertitle {
-    margin-top: 4px;
-    margin-left: 24px;
     font-weight: normal;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--primary-font-color);
-}
+    }
 
 .main-header {
     margin-bottom: 28px;
@@ -277,12 +281,20 @@ img {
     text-align: center;
 }
 
+.portfolio {
+    font-stretch: ultra-condensed;
+    padding: 20px 20px;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+}
+
 .list-of-works {
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px ;
     margin-top: -30px;
     padding-bottom: 94px;
+    border-bottom: 1px solid #EEEEEE;
 }
 
 .work-card:not(:nth-child(3n)) {
@@ -296,7 +308,6 @@ img {
 }
 
 .about {
-    padding-top: 94px;
     padding-bottom: 94px;
 }
 
@@ -312,9 +323,9 @@ img {
     justify-content: space-between;
     }
 
-.our-subscribe {
-    padding-top: 94px;
-    padding-bottom: 94px;
+.our-team-description {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .profession-list {
@@ -326,7 +337,7 @@ img {
     color: var(--primary-font-color);
 }
 
-.logo-footer {
+.footer {
     padding-top: 60px;
     padding-bottom: 60px;
 }
