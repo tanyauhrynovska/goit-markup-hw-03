@@ -186,7 +186,7 @@ img {
 .img-description {
     font-weight: bold;
     font-size: 18px;
-    line-height: 1.71;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: var(--accent-color);
 }
@@ -238,7 +238,7 @@ img {
 .advantages-desc {
     font-weight: normal;
     font-size: 14px;
-    line-height: 1.71;
+    line-height: 2;
     letter-spacing: 0.03em;
     color: var(--primary-font-color);
 }
@@ -350,7 +350,7 @@ img {
     font-weight: normal;
     padding-top: 20px;
     font-size: 14px;
-    line-height: 1.71;
+    line-height: 2;
     letter-spacing: 0.03em;
     color: var(--secondary-font-color);
     margin-bottom: 9px;
@@ -360,7 +360,7 @@ img {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 1.71;
+    line-height: 2;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     margin-bottom: 9px;
@@ -371,7 +371,7 @@ img {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 1.71;
+    line-height: 2;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     margin-bottom: 9px;
