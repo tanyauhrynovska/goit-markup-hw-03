@@ -55,14 +55,13 @@ img {
 }
 
 .our-advantages {
-    padding: 94px 215px;
+    padding: 94px;
 }
 
 .advantages-list {
         width: 270px;
         height: 16px;
         padding-bottom: 10px;
-        padding-right: 30px;
         margin-bottom: 10px;
         font-weight: bold;
         font-size: 14px;
@@ -87,7 +86,7 @@ img {
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .header-wrapper {
@@ -258,7 +257,6 @@ img {
 }
 
 .employee-list {
-    padding-top: 30px;
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
@@ -268,12 +266,15 @@ img {
     color: var(--accent-color);
 }
 
+.portfolio-button {
+    padding-top: 94px;
+}
+
 .portfolio-navigation {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 56px;
-    padding-top: 94px;
+    padding-bottom: 56px;
 }
 
 .portfolio-list {
@@ -291,16 +292,16 @@ img {
 .list-of-works {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -30px ;
-    margin-top: -30px;
+    margin-right: -30px ;
+    margin-bottom: -30px;
     padding-bottom: 94px;
     border-bottom: 1px solid #EEEEEE;
 }
 
 .work-card:not(:nth-child(3n)) {
-    flex-basis: calc(100%-3*30px/3);
-    margin-right: 30px ;
-    margin-bottom: 30px;  
+    flex-basis: calc(( 100%- 90px ) / 3);
+    margin-right: 30px;
+    margin-bottom: 30px;
 }
 .our-employee {
     padding-top: 94px;
@@ -348,7 +349,7 @@ img {
 .footer-location {
     font-style: normal;
     font-weight: normal;
-    padding-top: 20px;
+    margin-top: 20px;
     font-size: 14px;
     line-height: 2;
     letter-spacing: 0.03em;
@@ -364,8 +365,7 @@ img {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     margin-bottom: 9px;
-    padding-bottom: 9px;
-}
+    }
 
 .footer-phone {
     font-style: normal;
