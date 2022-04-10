@@ -55,7 +55,8 @@ img {
 }
 
 .our-advantages {
-    padding: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .advantages-list {
@@ -71,7 +72,7 @@ img {
         color: var(--accent-color);
     }
     
-.advantages-desc {
+.advantages-dpadding-top: 94px;esc {
     width: 270px;
 }
 
@@ -268,6 +269,7 @@ img {
 
 .portfolio-button {
     padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .portfolio-navigation {
@@ -292,8 +294,6 @@ img {
 .list-of-works {
     display: flex;
     flex-wrap: wrap;
-    margin-right: -30px ;
-    margin-bottom: -30px;
     padding-bottom: 94px;
     border-bottom: 1px solid #EEEEEE;
 }
